@@ -1,8 +1,8 @@
-package com.indivizion.desktop;
+package com.indivizion.trex.desktop;
 
 import com.badlogic.gdx.backends.lwjgl.LwjglApplication;
 import com.badlogic.gdx.backends.lwjgl.LwjglApplicationConfiguration;
-import com.indivizion.TRexGame;
+import com.indivizion.trex.TRexGame;
 
 public class DesktopLauncher {
 	public static void main (String[] arg) {

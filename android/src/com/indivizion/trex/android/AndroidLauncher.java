@@ -1,10 +1,10 @@
-package com.indivizion;
+package com.indivizion.trex.android;
 
 import android.os.Bundle;
 
 import com.badlogic.gdx.backends.android.AndroidApplication;
 import com.badlogic.gdx.backends.android.AndroidApplicationConfiguration;
-import com.indivizion.TRexGame;
+import com.indivizion.trex.TRexGame;
 
 public class AndroidLauncher extends AndroidApplication {
 	@Override

@@ -1,4 +1,4 @@
-package com.indivizion;
+package com.indivizion.trex;
 
 import com.badlogic.gdx.ApplicationAdapter;
 import com.badlogic.gdx.Gdx;
@@ -23,11 +23,5 @@ public class TRexGame extends ApplicationAdapter {
 		batch.begin();
 		batch.draw(img, 0, 0);
 		batch.end();
-	}
-	
-	@Override
-	public void dispose () {
-		batch.dispose();
-		img.dispose();
 	}
 }
